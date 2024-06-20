@@ -80,6 +80,9 @@ public abstract class NMS{
 			versionNms = Bukkit.getServer().getClass().getPackage().getName().split("\\.")[3].substring(1);
 		} else {
 			versionNms = "1_20_R4";
+      if (MinecraftVersion.MAJOR == 21) {
+        versionNms = "1_21_R1";
+      }
 			// TODO: find better way
 		}
 

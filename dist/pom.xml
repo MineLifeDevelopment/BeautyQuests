@@ -9,7 +9,7 @@
 		<artifactId>beautyquests-parent</artifactId>
 		<version>${revision}</version>
 	</parent>
-	
+
 	<build>
 		<directory>../target</directory>
 		<finalName>beautyquests-${revision}</finalName>
@@ -177,5 +177,12 @@
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>beautyquests-v1_21_R1</artifactId>
+            <version>${revision}</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
 	</dependencies>
 </project>

@@ -37,13 +37,14 @@ softdepend:
 - LevelledMobs
 - WildStacker
 - ItemsAdder
+- FancyNpcs
 
 #commands:
 #  beautyquests:
 #    description: Main command for quests
 #    permission: beautyquests.command
 #    aliases: [bquests, quests, beautyquests, bq, quest]
-    
+
 permissions:
   beautyquests.*:
     description: Gives access to BeautyQuests whole
